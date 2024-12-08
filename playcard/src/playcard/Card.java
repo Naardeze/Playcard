@@ -31,7 +31,7 @@ final public class Card extends BufferedImage {
         Graphics g = back.getGraphics();
         
         g.setColor(color);
-        g.fillRect(INSET, INSET, WIDTH - 2 * INSET, HEIGHT - 2 * INSET);
+        g.fillRect(INSET, INSET, back.getWidth() - 2 * INSET, back.getHeight() - 2 * INSET);
         
         return back;
     }
