@@ -17,10 +17,10 @@ final public class Card extends BufferedImage {
         Graphics g = getGraphics();
         
         g.setColor(Color.white);
-        g.fillRoundRect(0, 0, WIDTH - 1, HEIGHT - 1, ANGLE, ANGLE);
+        g.fillRoundRect(0, 0, getWidth() - 1, getHeight() - 1, ANGLE, ANGLE);
         
         g.setColor(Color.darkGray);
-        g.drawRoundRect(0, 0, WIDTH - 1, HEIGHT - 1, ANGLE, ANGLE);
+        g.drawRoundRect(0, 0, getWidth() - 1, getHeight() - 1, ANGLE, ANGLE);
     }
     
     final private static int INSET = 5;
