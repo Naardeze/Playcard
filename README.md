@@ -1,2 +1,2 @@
 # Playcard
-Simple Java Playcard Back &amp; Face  Images
+Playcard Back & Face Images
